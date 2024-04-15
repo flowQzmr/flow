@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(/CSS/reset.css);
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80svw;
+  margin: auto;
+  padding-block: 1.25em;
+  font-family: "Poppins", "Comic Sans MS";
+}
+
+.logo {
+  color: blueviolet;
+}
+
+nav {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  transition: 0.1s;
+}
+
+a:hover {
+  scale: 1.1;
+  color: blueviolet;
+}
+
+.sub-header {
+  height: 45svh;
+  width: 100svw;
+  background-image: url(https://www.eccouncil.org/cybersecurity-exchange/wp-content/uploads/2024/03/what-is-a-dos-attack-denial-of-service-blog-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 50%;
+}
+
+main {
+  font-family: "Poppins", "Comic Sans MS";
+  text-align: center;
+}
+
+.main__heading, .defense__heading {
+  padding-block-start: 60px;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+h3 {
+  padding-block-end: 60px;
+}
+
+.history, .defense {
+  text-align: justify;
+  text-indent: 20px;
+  font-size: 20px;
+  width: 80svw;
+  margin: auto;
+}
